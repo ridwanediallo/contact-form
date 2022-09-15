@@ -416,12 +416,21 @@ form textarea {
   margin-bottom: 100px;
 }
 
-/* .form-submit:hover {
-  background-color: rgb(79, 0, 213);
-  color: #fff;
-  text-decoration: underline;
-  border: 1px solid #fff;
-} */
+.form-submit:hover {
+  background-color: #FFF5E1;
+  color: #F55800;
+  border: 1px solid #F55800;
+}
+
+.form-submit:active {
+  background-color:  #E05304;
+  color:  #F4F1F0;
+}
+
+.form-submit:disabled {
+  background-color:  #F4F1F0;;
+  color:  #5B5957;;
+}
 
 h2.title {
   margin: 0;
