@@ -141,6 +141,11 @@ main {
   color: #1c1a19;
 }
 
+footer hr {
+  width: 100%;
+  margin: 20px 0;
+}
+
 .projects hr {
   margin: 25px 0;
   border-color: #212121;
@@ -388,9 +393,6 @@ form textarea {
   margin-bottom: 20px;
   padding: 15px;
   background: #fbf8f7;
-}
-
-form textarea {
   min-height: 170px;
 }
 
@@ -435,12 +437,6 @@ h2.title {
 
 .social-icon-footer {
   color: #505f79;
-}
-
-footer hr {
-  width: 100%;
-  /* margin: 0; */
-  margin: 20px 0;
 }
 
 .bar-icon-footer {
